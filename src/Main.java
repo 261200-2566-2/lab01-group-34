@@ -20,7 +20,7 @@ public class Main {
         Scanner s = new Scanner(System.in);
         int size = s.nextInt();
         while(size <= 0){
-            System.out.println("The size of array must greater than '0'");
+            System.out.println("The size of array must greater than '0' ");
             size = s.nextInt();
         }
         int[] arr = new int[size];
