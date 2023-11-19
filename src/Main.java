@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static void insertionsort(int[] arr){ //from geeksforgeeks.orgasdasd
         int n = arr.length;
-        for(int i = 0; i < n; i++){
+        for(int i = 1; i < n; i++){
             int key = arr[i];
             int j = i - 1;
 
